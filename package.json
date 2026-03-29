@@ -2,7 +2,7 @@
   "name": "Danish Khan-Robotics Technical Specialist ",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https:kdanish.online",
+  "homepage": "https://kdanish.online",,
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
     "@emotion/react": "^11.11.4",
