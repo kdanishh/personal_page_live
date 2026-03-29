@@ -9,23 +9,42 @@
 
   button {
     float: right;
-    background-color: white;
-    color: #050f0b;
+    background-color: #5000ca; 
+    color: white !important; // Button text should always be white
+    padding: 10px 25px;
   }
 
   button:hover {
-    background-color: #5000ca;
-    color: white;
-  }
-
-  fieldset {
-    background-color: white;
+    background-color: #3700b3;
   }
 }
 
-label {
-  font-size: 1.2rem;
-  font-family: 'DomaineDispNar-Medium', sans-serif;
+/* This is the MAGIC FIX:
+   In Dark Mode, Material UI components usually sit inside a parent with a 'dark-mode' class.
+   We target the input text specifically.
+*/
+
+// Light mode (default)
+.MuiInputBase-input {
+  color: #000000 !important; 
+}
+
+.MuiInputLabel-root {
+  color: #666666 !important;
+}
+
+// Dark mode override
+// Check if your body or a parent div has the class 'dark-mode' or 'dark'
+.dark-mode, .dark, [data-theme='dark'] {
+  .MuiInputBase-input {
+    color: #ffffff !important; 
+  }
+  .MuiInputLabel-root {
+    color: #aaaaaa !important;
+  }
+  .MuiOutlinedInput-notchedOutline {
+    border-color: rgba(255, 255, 255, 0.3) !important;
+  }
 }
 
 .form-flex {
@@ -36,10 +55,6 @@ label {
 
 .form-flex .MuiFormControl-root {
   width: 100%;
-}
-
-form {
-  width: 100% !important;
 }
 
 .body-form {

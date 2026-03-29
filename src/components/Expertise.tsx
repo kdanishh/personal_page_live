@@ -6,39 +6,40 @@ import Chip from '@mui/material/Chip';
 import '../assets/styles/Expertise.scss';
 
 const labelsFirst = [
-    "React",
-    "TypeScript",
-    "JavaScript",
-    "HTML5",
-    "CSS3",
-    "SASS",
-    "Flask",
-    "Python",
-    "SQL",
-    "PostgreSQL",
-    "Postman"
+    "ROS/ROS2",
+    "SLAM",
+    "Sensor Fusion",
+    "OpenCV",
+    "PCL",
+    "PyTorch",
+    "YOLO",
+    "PointPillars",
+    "C++",
+    "Python"
 ];
 
 const labelsSecond = [
-    "Git",
-    "GitHub Actions",
-    "Docker",
-    "AWS",
-    "Azure",
-    "Linux",
-    "Snowflake",
-    "Pandas",
-    "Selenium",
+    "UR10",
+    "Clearpath Jackal",
+    "Boston Dynamics Spot",
+    "LiDAR",
+    "GNSS/IMU",
+    "Stereo Cameras",
+    "3D Printing",
+    "Fusion 360",
+    "Sensor Calibration"
 ];
 
 const labelsThird = [
-    "OpenAI",
-    "Groq",
-    "LangChain",
-    "Qdrant",
-    "Hugging Face",
-    "LlamaIndex",
-    "Streamlit",
+    "Gazebo",
+    "Isaac Sim",
+    "Linux (Ubuntu)",
+    "Docker",
+    "Git",
+    "CI/CD",
+    "MATLAB",
+    "Simulink",
+    "Unit Testing"
 ];
 
 function Expertise() {
@@ -49,8 +50,8 @@ function Expertise() {
             <div className="skills-grid">
                 <div className="skill">
                     <FontAwesomeIcon icon={faReact} size="3x"/>
-                    <h3>Full Stack Web Development</h3>
-                    <p>I have built a diverse array of web applications from scratch using modern technologies such as React and Flask. I have a strong proficiency in the SDLC process and frontend + backend development.</p>
+                    <h3>Robotics & AI</h3>
+                    <p>I specialize in developing autonomous perception stacks and real-time navigation systems. My experience spans multi-modal sensor fusion, SLAM, and deploying deep learning models (YOLO, PointPillars) for robust object detection in complex environments.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
                         {labelsFirst.map((label, index) => (
@@ -61,8 +62,8 @@ function Expertise() {
 
                 <div className="skill">
                     <FontAwesomeIcon icon={faDocker} size="3x"/>
-                    <h3>DevOps & Automation</h3>
-                    <p>Once the application is built, I help clients set up DevOps testing, CI/CD pipelines, and deployment automation to support the successful Go-Live.</p>
+                    <h3>Hardware & Mechatronics</h3>
+                    <p>I have extensive hands-on experience with diverse robotic hardware, from industrial UR10 arms to mobile platforms like the Clearpath Jackal. I handle the full integration cycle, including CAD design, 3D printing, and high-precision sensor calibration.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
                         {labelsSecond.map((label, index) => (
@@ -73,8 +74,8 @@ function Expertise() {
 
                 <div className="skill">
                     <FontAwesomeIcon icon={faPython} size="3x"/>
-                    <h3>GenAI & LLM</h3>
-                    <p>Stay relevant in the market by leveraging the latest AI models in your projects. I have professional experience building enterprise grade GenAI-enabled solutions to empower intelligent decision making.</p>
+                    <h3>Software Engineering & Simulation</h3>
+                    <p>I bridge the gap between virtual testing and real-world deployment. I utilize advanced simulation environments like Gazebo and Isaac Sim to validate autonomous pipelines before moving to production-ready C++ and Python implementations.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
                         {labelsThird.map((label, index) => (

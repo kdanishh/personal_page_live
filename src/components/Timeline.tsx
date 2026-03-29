@@ -16,50 +16,64 @@ function Timeline() {
             className="vertical-timeline-element--work"
             contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
             contentArrowStyle={{ borderRight: '7px solid  white' }}
-            date="2022 - present"
+            date="2024 - present"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Technology Consultant</h3>
-            <h4 className="vertical-timeline-element-subtitle">Dallas, TX</h4>
+            <h3 className="vertical-timeline-element-title">Robotics Technical Specialist</h3>
+            <h4 className="vertical-timeline-element-subtitle">The University of Manchester, UK</h4>
             <p>
-              Full-stack Web Development, GenAI/LLM, Project Management, Business Development
+             Supporting robotics research by managing diverse fleets of robotic platforms, providing hands-on technical support for multi-modal sensor integration, and mentoring students in applied research projects.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2020 - 2022"
+            date="2023 - 2024"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Full Stack Engineer</h3>
-            <h4 className="vertical-timeline-element-subtitle">Laie, HI</h4>
+            <h3 className="vertical-timeline-element-title">Postdoctoral Research Associate </h3>
+            <h4 className="vertical-timeline-element-subtitle">The University of Sydney, Australia</h4>
             <p>
-              Frontend Development, Backend Development, User Experience, Team Leading
+              Developed real-time perception systems for visually impaired users and hardware prototypes for camera characterization in AR/VR applications.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2021 - 2021"
+            date="2021 - 2023"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Staff Engineer Intern</h3>
-            <h4 className="vertical-timeline-element-subtitle">Laie, HI</h4>
+            <h3 className="vertical-timeline-element-title">Research Professor</h3>
+            <h4 className="vertical-timeline-element-subtitle">Kyungpook National University, South Korea</h4>
             <p>
-              Full-stack Development, API Development, User Experience
+              Led the autonomous vehicle perception team, implementing ROS-based stacks for object detection and multi-sensor fusion (Camera-LiDAR).
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2020 - 2020"
+            date="2020 - 2021"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Data Analyst Intern</h3>
-            <h4 className="vertical-timeline-element-subtitle">Tokyo, Japan</h4>
+            <h3 className="vertical-timeline-element-title">Postdoctoral Researcher</h3>
+            <h4 className="vertical-timeline-element-subtitle">Kyungpook National University, South Korea</h4>
             <p>
-              Automation, Data Governance, Statistical Analysis
+              Analyzed laser-based and simulated speckle patterns for 3D reconstruction and investigated ML-based depth estimation pipelines.
+            </p>
+          </VerticalTimelineElement>
+            <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
+            contentArrowStyle={{ borderRight: '7px solid  white' }}
+            date="2014 - 2020"
+            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+            icon={<FontAwesomeIcon icon={faBriefcase} />}
+          >
+            <h3 className="vertical-timeline-element-title">Graduate Research Assistant</h3>
+            <h4 className="vertical-timeline-element-subtitle">Kyungpook Natioanl University, South Korea</h4>
+            <p>
+             Conducted Ph.D. research in computer vision and active 3D sensing, designing structured light systems for industrial 3D measurement.
             </p>
           </VerticalTimelineElement>
         </VerticalTimeline>
